@@ -195,5 +195,6 @@ skoda.discription()
 skoda.changeState(action: .startEngine)
 skoda.changeState(action: .takeSmthFromTrunk(weight: 20))
 skoda.changeState(action: .closeWindow)
+skoda.changeState(action: .putSmthToTrunk(weight: 110))
 
 skoda.discription()
